@@ -1,0 +1,72 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CI_Platform_web
+build_property.RootNamespace = CI_Platform_web
+build_property.ProjectDir = D:\Tatvasoft_Training_CI_MVC_Project\MVC_Ci-Platform-main\CI-Platform_web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Tatvasoft_Training_CI_MVC_Project\MVC_Ci-Platform-main\CI-Platform_web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Home/missionPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxtaXNzaW9uUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Home/noMission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxub01pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Pages/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Pages/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Pages/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kusxo8oku2
+
+[D:/Tatvasoft_Training_CI_MVC_Project/MVC_Ci-Platform-main/CI-Platform_web/Views/Shared/_LayoutPages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-j9oq0b1u6l
