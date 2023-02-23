@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteering Mission Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+</head>
+
+<body style="height: 2000px;">
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+            <div id="navigation">
+                <button class="navbar-toggler border-0 ms-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start w-50" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-3  mb-2 ">
+                        <li class="nav-item offcanvas-header ms-auto border-0">
+                            <button type="button" class="" data-bs-dismiss="offcanvas" aria-label="Close"> <img
+                                    src="images/cancel1.png" alt=""></button>
+                        </li>
+                        <li class="nav-item ms-2 ms-md-5">
+                            <a class="nav-link active" aria-current="page" href="#">Stories</a>
+                        </li>
+                        <li class="nav-item dropdown ms-2 ms-md-5 ">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Policy
+                                <img class="ms-2" src="images/drop-down.png" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Volunteering</a></li>
+                                <li><a class="dropdown-item" href="#">Sponsored</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link me- " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="me-1 rounded-circle" style="height: 40px;width: 40px;" src="images/user-img.png"
+                                alt="">
+                            <span class="d-none d-sm-inline">Evan Donohue
+                                <img class="ms-2" src="images/drop-down.png" alt=""></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end position-absolute    ">
+                            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#">My Account</a></li>
+                            <li><a class="dropdown-item" href="#">Help Center</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    
+
+
+
+
+
+
+
+<!--
+
+    <div class="row mt-5">-->
+        <!-- Container for the image gallery -->
+        <!-- <div class="container-fluid px-0 col-lg-6 d-flex justify-content-center">
+            <div class="col-lg-6 col-md-12 w-100 px-3"> -->
+
+                <!-- Full-width images with number text -->
+                <!-- <div class="mySlides">
+                    <img src="  /images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="  /images/img1.png" style="width:100%" onclick="currentSlide(2)">
+                </div>
+
+                <div class="mySlides">
+                    <img src="  /images/Grow-Trees-On-the-path-to-environment-sustainability-2.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="  /images/img11.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="  /images/img1.png">
+                </div>
+
+                <div class="mySlides">
+                    <img src="  /images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png">
+                </div> -->
+
+
+
+                <!-- Thumbnail images -->
+                <!-- <div class="row mt-4 position-relative " style="height:10%">
+                    <div class="column mx-auto">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <img class="demo cursor"
+                            src="  /images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png"
+                            style="width:100%" onclick="currentSlide(1)">
+                    </div>
+                    <div class="column mx-auto">
+                        <img class="demo cursor" src="  /images/img1.png" style="width:100%"
+                            onclick="currentSlide(2)">
+                    </div>
+                    <div class="column mx-auto">
+                        <img class="demo cursor"
+                            src="  /images/Grow-Trees-On-the-path-to-environment-sustainability-2.png"
+                            style="width:100%" onclick="currentSlide(3)">
+                    </div>
+                    <div class="column mx-auto">
+                        <img class="demo cursor" src="  /images/img11.png" style="width:100%"
+                            onclick="currentSlide(4)">
+                    </div>
+                    <div class="column mx-auto">
+                        <img class="demo cursor" src="  /images/img1.png" style="width:100%"
+                            onclick="currentSlide(5)">
+                    </div>
+                    <div class="column mx-auto">
+                        <img class="demo cursor"
+                            src="  /images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png"
+                            style="width:100%" onclick="currentSlide(6)">
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    
+
+
+
+
+
+
+
+
+    <div style="height:1000px" class="container">
+        <div class="row pt-4">
+            <div class="col-12 col-lg-6">hola
+                <!-- <div class="container">
+                    <div class="mySlides">
+                      <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="images/Grow-Trees-On-the-path-to-environment-sustainability-2.png" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides">
+                      <img src="images/img1.png" style="width:100%">
+                    </div>
+                      
+                    <div class="mySlides">
+                      <img src="images/img11.png" style="width:100%">
+                    </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                  
+                    
+                  
+                    <div class="row">
+                      <div class="column">
+                        <img class="demo cursor" src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="images/Grow-Trees-On-the-path-to-environment-sustainability-2.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="images/img1.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                      </div>
+                      <div class="column">
+                        <img class="demo cursor" src="images/img11.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                      </div>
+                      
+                    </div>
+                  </div> -->
+
+
+
+
+                
+
+
+
+
+
+
+                </div>
+                <div class="col-12 col-lg-6 px-4">
+                    <h2>CSR initiative stands for Coffee & Farmer Equity</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <span class="border rounded-pill p-1 px-3 d-flex justify-content-center p-auto  d-block">Plant
+                        10,000
+                        Trees</span>
+
+
+
+
+                    <div class="border-top border-bottom mt-5" id="missionInfo" style="position: relative;">
+
+                        <div class="d-flex mt-2 pb-4 justify-content-around align-items-center py-2">
+                            <div class="d-flex justify-content-center align-items-center " style="width:max-content">
+                                <img class="me-2" height="30" src="/images/Seats-left.png" alt="">
+                                <div>
+                                    <p class="mb-0" style="font-size:1.3rem">10</p>
+                                    <small>Seats Left</small>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="me-2" height="25" src="/images/achieved.png" alt="">
+                                <div>
+                                    <div class="progress" style="min-width:100px; width: 10vw; height: 15px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <small><span>8000</span> achieved</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="container-fluid">
+                    <div class="row border-top border-bottom py-3 d-flex justify-content-around">
+                        
+                        <div class="col-3 ">
+                            <div class="d-flex align-items-center">
+                                <img class="me-2" height="25" src="images/Seats-left.png" alt="">
+                                <div>
+                                    10
+                                    
+                                </div><small>Seats left</small>
+
+                            </div>
+                        </div>
+                        
+                        <div class="col-5">
+                            <div class="d-flex align-items-center">
+                                <img class="me-2" height="25" src="images/achieved.png" alt="">
+                                <div>
+                                    <div class="progress" style="min-width:100px; width: 10vw; height: 12px;">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <small><span>8000</span> achieved</small>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div> -->
+
+
+                    <div class="d-flex d-md-flex justify-content-center my-4">
+                        <button class="btn btn-outline-danger rounded-pill px-auto w-100 d-block me-1">
+                            <img class="me-2" src="images/heart1.png" alt=""> Add to Favourite
+                        </button>
+                        <button class="btn btn-outline-danger rounded-pill px-auto w-100 d-block">
+                            <img class="me-2" src="images/add1.png" alt=""> Recommanded to a Co-Worker
+                        </button>
+                    </div>
+
+                    <div class="d-flex justify-content-center mb-3">
+                        <span style="color: gray;" class="fa fa-star px-1"></span>
+                        <span style="color: gray;" class="fa fa-star px-1"></span>
+                        <span style="color: gray;" class="fa fa-star px-1"></span>
+                        <span style="color: gray;" class="fa fa-star px-1"></span>
+                        <span style="color: gray;" class="fa fa-star px-1"></span>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col border mx-1">
+                                <img src="images/pin1.png" alt=""><br><br>
+                                <small class="d-block">city</small>
+                                <p>London</p>
+                            </div>
+                            <div class="col border mx-1">
+                                <img src="images/web.png" alt=""><br><br>
+                                <small class="d-block">Theme</small>
+                                <p>Environment</p>
+                            </div>
+                            <div class="col border mx-1">
+                                <img src="images/calender.png" alt=""><br><br>
+                                <small class="d-block">Date</small>
+                                <span>Ongoing Opportunity</span>
+                            </div>
+                            <div class="col border mx-1">
+                                <img src="images/organization.png" alt=""><br><br>
+                                <small class="d-block">city</small>
+                                <p>London</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-item-center mt-4">
+                        <button class="btn btn-outline-danger rounded-pill p-2 px-4">Apply Now
+                            <img src="images/right-arrow.png" alt="">
+                        </button>
+                    </div>
+
+
+
+
+                    
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Mission</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Organization</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Comments</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">
+                            <div class="mt-4">
+                                <h3>Introduction</h3>
+                                <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br> Duis
+                                    aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum. <br><br> ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                    ea
+                                    commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum
+                                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                                <h3>Challange</h3>
+                                <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure
+                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur.
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.<br><br> Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing
+                                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo
+                                    consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                                <h3 class="mb-3">Documents<br></h3>
+                                <button class="btn border rounded-pill p-2 px-3 me-3 "><img class="pe-2"
+                                        src="images/pdf.png" alt="">lorem-ipsum.pdf</button>
+                                <button class="btn border rounded-pill p-2 px-3 me-3"><img class="pe-2"
+                                        src="images/doc.png" alt="">at_vero_eos_accusamus.doc</button>
+                                <button class="btn border rounded-pill p-2 px-3 mt-3 mt-lg-0"><img class="pe-2"
+                                        src="images/xlsx.png" alt="">important_doc.xls</button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">
+                            <div class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                                nesciunt
+                                nemo
+                                consequuntur qui quos, consequatur quia distinctio natus incidunt aliquid, harum fuga
+                                nisi.
+                                Nobis tenetur molestiae odit? Deleniti doloremque non perspiciatis alias numquam enim
+                                quaerat.</div>
+                        </div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                            tabindex="0">
+                            <form class="mt-4">
+                                <textarea class="form-control" name="" id="" cols="30" rows="4"
+                                    placeholder="Enter your comments.."></textarea>
+                            </form>
+                            <button class="btn btn-outline-danger rounded-pill m-3 ms-0 ">Post comments</button>
+
+                            <div class="container bg-light">
+                                <div style="overflow: auto; height: 26rem;" class="row mt-3 border p-3">
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50rem" width="50rem">
+                                                </div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-4 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50rem" width="50rem">
+                                                </div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 bg-white mb-3 pt-2">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-auto my-auto"><img class="rounded-circle"
+                                                        src="images/volunteer1.png" alt="" height="50" width="50"></div>
+                                                <div class="col">
+                                                    <p class="mb-1">Margaret Walsh</p>
+                                                    <small class="d-block">Monday, October 21,2019, 4:57 PM</small>
+                                                    <p>Nice mission great opportunity for peoples</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 border mb-3">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr style="border-bottom: 1px solid gray;">
+                                            <th style="border-bottom: 3px solid black;" scope="col">Information</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row">Skills</td>
+                                            <td>Cool, Easy going, Math, Computer</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Days</td>
+                                            <td>Weekend only</td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">Rating</td>
+                                            <td colspan="2">
+                                                <span style="color: orange;" class="fa fa-star checked"></span>
+                                                <span style="color: orange;" class="fa fa-star checked"></span>
+                                                <span style="color: orange;" class="fa fa-star checked"></span>
+                                                <span style="color: orange;" class="fa fa-star checked"></span>
+                                                <span style="color: orange;" class="fa fa-star checked"></span>
+                                                <small>(by 125 volunteers)</small>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                            <div class="col-12 border">
+
+                                <!-- <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Recent Volunteers</th>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-4 p-3 "><img class="rounded-circle" src="images/volunteer1.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer2.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer3.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer4.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer5.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer6.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer7.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer8.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                    <div class="col-4 p-3"><img class="rounded-circle" src="images/volunteer9.png"
+                                            alt="" height="60" width="60"><small class="text-nowrap">Andrew
+                                            Johnsson</small></div>
+                                </div>
+                            </div> -->
+
+                                <div class="col-12 pt-3 px-4 mt-3">
+
+                                    <div class="border-bottom">
+                                        <h3 class="pb-3 mb-0" style="border-bottom:2px solid black; width:fit-content">
+                                            Recent Volunteers</h3>
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center my-3">
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer1.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Andrew
+                                                Johnson
+                                            </p>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer2.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Charles
+                                                Vigue
+                                            </p>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer3.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Kathryn
+                                                Roberts
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center my-3">
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer4.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Estella
+                                                Fowles
+                                            </p>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer5.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Rose Lewis
+                                            </p>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer6.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Raymond
+                                                Pabon
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center my-3">
+                                        <div class="col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer7.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Travis
+                                                Steen
+                                            </p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer8.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Sarah
+                                                Santillan
+                                            </p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-4">
+                                            <div class="d-flex justify-content-center">
+                                                <img src=" /images/volunteer9.png" class="rounded-circle" height="70"
+                                                    width="70" />
+                                            </div>
+                                            <p class="d-flex justify-content-center" style="font-size: 13px">Linda
+                                                Richards
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12  border ">
+                                <div class="contanier-fluid">
+                                    <div class="row p-2">
+                                        <div class="col-auto">
+                                            <a href=""><img src="images/left.png" alt=""></a>
+                                        </div>
+                                        <div class="col ">
+                                            <div class="d-flex justify-content-center">1-9 of 25 Recent Volunteers</div>
+
+                                        </div>
+                                        <div class="col-auto"><a href=""><img src="images/right-arrow1.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 border-top border-bottom py-5">
+            <div class="d-flex justify-content-center pt-3 pb-1">
+                <h2>Related Missions</h2>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <hr>
+                            <button class="btn btn-outline-danger rounded-pill">Apply
+                                <img src="images/right-arrow.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/Animal-welfare-&-save-birds-campaign.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <hr>
+                            <button class="btn btn-outline-danger rounded-pill">Apply
+                                <img src="images/right-arrow.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="images/Plantation-and-Afforestation-programme.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <hr>
+                            <button class="btn btn-outline-danger rounded-pill">Apply
+                                <img src="images/right-arrow.png" alt="">
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
